@@ -62,8 +62,8 @@ h3 {
   font-size: 4rem;
   font-weight: bold;
   line-height: 1.25;
-  padding-top: 30%;
   width: 40%;
+  padding-top: 15rem;
 }
 
 .qoute {
@@ -111,9 +111,27 @@ h3 {
   margin-bottom: 50px;
 }
 
+#Services .textbox:before {
+  display: block;
+  content: " ";
+  margin-top: -88px;
+  height: 125px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 #Industries {
   border-top: 5px solid #058542;
   margin-bottom: 50px;
+}
+
+#Industries:before {
+  display: block;
+  content: " ";
+  margin-top: -88px;
+  height: 125px;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .service-logo {
@@ -197,7 +215,7 @@ h3 {
 }
 
 footer {
-  height: 200px;
+  height: 100px;
   background-color: black;
   color: white;
   display: flex;
