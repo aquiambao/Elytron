@@ -60,12 +60,12 @@ header {
   height: 40rem;
   overflow: hidden;
   background-color: black;
+  display: flex;
+  align-items: center;
 }
 
-.carousel-item img {
-  position: relative;
-  top: 1rem;
-}
+
+
 .control {
   top: 50%;
 }
@@ -83,8 +83,9 @@ header {
   font-size: 2.5rem;
   margin-bottom: 1.2rem;
   line-height: 2.5rem;
+  margin-top: 2rem;
 }
-f
+
 .serv-icons {
   text-align: center;
   font-weight:700;
@@ -113,6 +114,8 @@ f
   background-position: left;
   background-size: contain;
   vertical-align: middle;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .qoute h2 {
@@ -130,7 +133,7 @@ f
   font-size: 1.2rem;
 }
 
-.row {
+.faq {
   margin-top: 30px;
 
 }
@@ -226,6 +229,21 @@ f
   justify-content:space-between;
 }
 
+.serv-type {
+  padding: 1rem;
+}
+
+.serv-type h3 {
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding: 2rem;
+}
+
+.serv-type ul {
+  list-style: square;
+  margin-left: 2rem;
+}
 footer {
 	background-image: linear-gradient(#221206, black);
 	margin: 0;
@@ -243,6 +261,58 @@ footer {
 	line-height: 1.5rem;
 }
 
+.serv {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.serv a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+.serv .col {
+  background-color: #F5F5F5;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #73e8ff;
+}
+
+.dropdown-item {
+  padding: .5rem;
+}
+
+.title {
+  margin-top: 3rem;
+  padding: 1rem;
+  font-weight: 700;
+  color: #283891;
+}
+.content {
+  padding: 2rem;
+  line-height: 1.25;
+}
+
+.content ul {
+  list-style: inside;
+  margin-left: 2rem;
+  line-height: 2;
+  margin-top: 1rem;
+}
+
+.industries {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 3rem;
+}
+
+
 @media only screen and (max-width: 780px) {
   .carousel {
     height: 15rem;
@@ -252,14 +322,30 @@ footer {
     width: 90%;
   }
   .lead {
-	  font-size: 2rem;
+	  font-size: 1.5rem;
+    padding: 1rem;
   }
   .textbox p {
 	  padding: 1rem;}
   .image-fluid {
 	  width: 50%;
-	  } 
+	  }
   .serv-icons {
-	  margin-bottom: 1.2rem;}
-	
+	  margin-bottom: 1.2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .inside {
+    font-size: 1rem;
+    margin: .5rem;
+    height: auto;
+  }
+
+  .qoute {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
 }
