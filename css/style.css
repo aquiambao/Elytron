@@ -368,6 +368,91 @@ margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
 
+.payroll-serv {
+  padding-top: 1rem;
+}
+
+.payroll {
+  padding-bottom: 2rem;
+}
+.payroll span {
+  font-weight: 800;
+  color: #1678BD;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #DADEE2;
+  line-height: 2.5;
+}
+
+.it-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.itlogo {
+  width: 20%;
+  padding: 1rem;
+}
+
+.itlogo img {
+  width: 100%;
+}
+
+.bio {
+  display: flex;
+  line-height: 1.5;
+}
+
+.bio img {
+  width: 25%;
+}
+
+.about {
+  margin-bottom: 3rem;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 30%;
+  padding-top: 2rem;
+}
+
+.social img {
+  width: 3rem;
+}
+
+.contact-info {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  border-top: 1px solid gray;
+  padding-top: 3rem;
+
+}
+
+.loc {
+  width: 60%;
+  overflow: hidden;
+  height: 20rem;
+  margin-right: 3rem;
+}
+
+.loc img {
+  width: 100%;
+}
+
+.address {
+  font-weight: 700;
+  color: #283891;
+  line-height: 2;
+}
+
 @media only screen and (max-width: 780px) {
   .carousel {
     height: 15rem;
@@ -420,60 +505,9 @@ margin-left: -1em; /* Also needed for space (tweak if needed) */
     display: block;
   }
 
-}
+  .social {
+    flex-direction: row;
+    width: 100%;
+  }
 
-.payroll-serv {
-  padding-top: 1rem;
-}
-
-.payroll {
-  padding-bottom: 2rem;
-}
-.payroll span {
-  font-weight: 800;
-  color: #1678BD;
-  font-size: 1.5rem;
-  border-bottom: 1px solid #DADEE2;
-  line-height: 2.5;
-}
-
-.it-logos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.itlogo {
-  width: 20%;
-  padding: 1rem;
-}
-
-.itlogo img {
-  width: 100%;
-}
-
-.bio {
-  display: flex;
-  line-height: 1.5;
-}
-
-.bio img {
-  width: 25%;
-}
-
-.about {
-  margin-bottom: 3rem;
-}
-
-.social {
-  display: flex;
-}
-
-.social div {
-  width: 10%;
-  padding: .5rem;
-}
-
-.social img {
-  width: 100%;
 }
