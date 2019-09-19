@@ -501,9 +501,7 @@ margin-left: -1em; /* Also needed for space (tweak if needed) */
     width: 100%;
   }
 
-  .footer {
-    display: block;
-  }
+
 
   .social {
     flex-direction: row;
