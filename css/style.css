@@ -32,6 +32,31 @@ header {
   background-image: linear-gradient(white, #D6DBDF);
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10rem;;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content li {
+  padding: .5rem;
+  font-size: .75rem;
+  border-bottom: 1px solid #D5D8E3;
+}
+
 #Home {
 	background-color: #C2E3ED;}
 
@@ -501,11 +526,30 @@ margin-left: -1em; /* Also needed for space (tweak if needed) */
     width: 100%;
   }
 
-
+  .serv {
+    display: block;
+  }
 
   .social {
     flex-direction: row;
     width: 100%;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .copyright {
+    width: 100%;
+  }
+
+  .social {
+    width: 50%;
+    padding-top: 1rem;
   }
 
 }
