@@ -412,6 +412,7 @@ margin-left: -1em; /* Also needed for space (tweak if needed) */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  flex-grow: 2;
 }
 
 .itlogo {
@@ -554,6 +555,10 @@ margin-left: -1em; /* Also needed for space (tweak if needed) */
 
   .loc {
     display: none;
+  }
+
+  .itlogo {
+    width: 80%;
   }
 
 }
