@@ -27,7 +27,7 @@ h3 {
 }
 
 header {
-  height: auto;
+  height: 115px;
   width: 100%;
   background-image: linear-gradient(white, #D6DBDF);
 }
@@ -71,6 +71,8 @@ header {
   font-weight: bold;
 }
 
+
+
 .company-logo img {
   height: auto;
   width: 200px;
@@ -82,14 +84,16 @@ header {
 }
 
 .carousel {
-  height: 30rem;
-  overflow: hidden;
   background-color: black;
   display: flex;
   align-items: center;
 }
 
 
+.banner {
+  overflow: hidden;
+  height: 35rem;
+}
 
 .control {
   top: 50%;
@@ -481,8 +485,17 @@ margin-left: -1em; /* Also needed for space (tweak if needed) */
 
 @media only screen and (max-width: 780px) {
   .carousel {
-    height: 15rem;
-    margin-top: 3rem;
+    /* height: 15rem; */
+    /* margin-top: 3rem; */
+  }
+
+  .about {
+    margin-top: -3rem;
+  }
+
+  .banner {
+    height: 170px;
+    margin-top: 115px;
   }
   .navbar {
     width: 90%;
@@ -559,6 +572,11 @@ margin-left: -1em; /* Also needed for space (tweak if needed) */
 
   .itlogo {
     width: 80%;
+  }
+
+  .nav-item {
+    background: white;
+    padding-left: 1rem;
   }
 
 }
